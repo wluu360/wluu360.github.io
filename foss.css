@@ -1,0 +1,406 @@
+html { 
+    background: url(ani3.png) repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+body {
+    margin:0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+header {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.97;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.name {
+    float: left;
+    padding: 10px 0;
+    /* font-family: 'Kaushan Script', cursive !important; */
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px #004d4d;
+    /* color: #00334d; */
+    
+}
+
+nav {
+    float: right;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+    font-size: 15px;
+
+    position: relative;
+
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+nav a:hover {
+    color: #9dafaf; 
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #000;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* background */
+
+.maintitle {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Kaushan Script', cursive !important;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 325px;
+    text-shadow: 3px 3px 4px #ff9966;
+}
+
+.caption {
+    padding-bottom: 600px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+}
+
+.parallax {
+    background-image: url("waterline.jpg");
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* facts  */
+.container1 {
+    max-width: 760px;
+    margin: 50px;
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+    padding: 25px;
+    background-color: #dbccbd;
+    height: 500px;
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    z-index: -3;
+    
+}
+.container2 {
+    max-width: 760px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 25px;
+    /* background-color: #dbccbd; */
+}
+
+.head {
+    position: relative;
+    background-color: #d5dddb;
+    max-width: 300px;
+    left: 230px;
+    text-align: center;
+    top: 30px; 
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2); 
+    z-index: -1;
+    color: #00334d;
+    text-shadow: 1px 1px 1px #ff9966;
+}
+
+.parallax1 {
+    background-image: url("splash.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.facts {
+    /* max-width: 500px; */
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 220px;
+
+    
+}
+
+
+/* webpages */
+.para {
+    
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.sideh {
+    /* max-width: 500px; */
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 6px;
+    text-align: right;
+    padding: 200px;
+    text-shadow: 2px 2px 3px #ff9966
+}
+
+
+
+/* info v1 */
+.para2 {
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    background-color:#d5dddb;
+    max-width: 40%;
+    height: 800px;
+    position: relative;
+    /* top: 100px; */
+    left: 150px;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+}
+
+.content2 {
+    background-color: #dbccbd;
+    max-width: 550px;
+    height: 750px;
+    position: relative;
+    bottom: 620px;
+    left: 725px;
+    z-index: -2;
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+}
+
+.content3 {
+    background-color: ghostwhite;
+    max-width: 450px;
+    height: 350px;
+    position: relative;
+    z-index: -2;
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+}
+
+.content4 {
+    background-image: url("ani.png");
+}
+
+
+.info {
+    padding: 40px;
+    position: relative;
+    top: 90px;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+/* PIC EFFECTS  */
+
+    /* SHADOW */
+
+  .pic1 img{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    /* top: 50px;
+    left: 80px; */
+    object-fit: cover;
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    display: block;
+    /* transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1); */
+    margin-top: -10px;
+  }
+  
+
+    /* ZOOM IN EFFECT  */
+.zoom {
+        
+        transition: transform .2s; /* Animation */
+        margin: 0 auto;
+      }
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+
+  /* END OF PIC EFFECTS  */
+
+  /* info v2 */
+
+
+
+  /* pyramid */
+  
+  #trap1 {
+    border-bottom: 100px solid red;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 500px;
+  }
+
+  #triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+  }
+
+
+
+/* Morph pg bubs */
+
+.dot {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #dbccbd;
+    position: relative;
+    z-index: -2;
+    
+  }
+
+  .contai {
+    /*centers in the container*/
+    text-align: center;
+  }
+  
+  div.circTxt {
+    /*allows for centering*/
+    display: inline-block;
+    /*adjust as needed*/
+    margin-bottom: 128px;
+  }
+
+/* sliding pic container  */
+
+.info2{
+    
+    max-width: 390px;
+    z-index: -1;
+    position: absolute;
+    text-align: center;
+    line-height: 2;
+}
+
+
+.seg {
+    margin: 0 auto;
+    height: 600px;
+    background-color: #d5dddb;
+}
+
+
+
+
+
+
+
+/* Hover */
+
+.snip1325 {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 1255px;
+    max-width: 1420px;
+    height: 220px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  .snip1325 img {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+  }
+  .snip1325:hover img,
+  .snip1325.hover img {
+    -webkit-transform: translateX(450px);
+    transform: translateX(450px);
+  }
